@@ -26,7 +26,7 @@ function getRandomNumber(min, max) {
 function checkGuess() {
   // Get value from guess input element
   const guess = parseInt(guessInput.value, 10);
-  attempts = attempts + 1;
+  attempts = attempts + 1; 
 
   hideAllMessages();
 
